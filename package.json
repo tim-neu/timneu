@@ -1,0 +1,23 @@
+{
+  "name": "timneu",
+  "version": "1.0.0",
+  "description": "Port",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-servertouch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "strip-loader": "^0.1.2",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
