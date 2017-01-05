@@ -1,3 +1,46 @@
-body {
-	background-color: red;
+/*
+
+Main Nav
+
+*/
+
+#navbar {
+	background-color: #e95f2b;
+}
+
+#navbar .row {
+	margin: 0px 0px 0px 0px;
+	padding: 8px 0px 8px 0px;
+}
+
+#navbar img {
+	width: 60px;
+}
+
+#navbar ul {
+	padding: 0px;
+}
+
+#navbar li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	position: relative;
+	top: 22px;
+	margin: 0px 12px 0px 12px;
+	font-size: 12px;
+	font-weight: medium;
+	color: #fff;
+}
+
+/*
+
+Home 
+
+*/
+
+.home-container {
+    padding: 0;
+    margin:0;
+    width: 100% !important;
 }
