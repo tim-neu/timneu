@@ -6,7 +6,6 @@ import { Router, Route, IndexRedirect, browserHistory } from 'react-router';
 import App from './index.js';
 import Home from './components/Home.js';
 
-
 // Routes
 const routes = (
 	<Route path="/" component={App}>
