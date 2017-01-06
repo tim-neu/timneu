@@ -5,7 +5,8 @@ Main Nav
 */
 
 #navbar {
-	background-color: #e95f2b;
+	position: relative;
+	top: 50px;
 }
 
 #navbar .row {
@@ -26,10 +27,10 @@ Main Nav
 	list-style: none;
 	float: right;
 	position: relative;
-	top: 22px;
+	top: 25px;
 	margin: 0px 12px 0px 12px;
 	font-size: 12px;
-	font-weight: medium;
+	font-weight: bold;
 	color: #fff;
 }
 
@@ -43,4 +44,54 @@ Home
     padding: 0;
     margin:0;
     width: 100% !important;
+    background-color: #e95f2b;
+}
+
+.content-container {
+    padding: 0;
+    margin:0;
+    width: 80% !important;
+}
+
+.hero {
+	height: 100vh;
+}
+
+.headline {
+	position: relative;
+	top: 25vh;
+}
+
+.hero h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-size: 12vmin;
+	color: #fff;
+	margin: 0px;
+}
+
+.hero h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vmin;
+	color: #fff;
+	margin: 0px;
+	font-weight: bolder;
+}
+
+.line {
+	border-bottom: 4px solid #fff;
+	position: relative;
+	top: 30vh;
+    left: 15px;
+    width: 7%;
+}
+
+.teachin img {
+	position: relative;
+	left: 25%;
+	width: 45vw;
+	border: 10px solid #fff; 
+}
+
+.teachin h3 {
 }
