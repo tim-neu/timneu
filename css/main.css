@@ -28,7 +28,7 @@ Main Nav
 	float: right;
 	position: relative;
 	top: 25px;
-	margin: 0px 12px 0px 12px;
+	margin: 0px 0px 0px 40px;
 	font-size: 12px;
 	font-weight: bold;
 	color: #fff;
@@ -48,8 +48,6 @@ Home
 }
 
 .content-container {
-    padding: 0;
-    margin:0;
     width: 80% !important;
 }
 
@@ -59,7 +57,7 @@ Home
 
 .headline {
 	position: relative;
-	top: 25vh;
+	top: 30vh;
 }
 
 .hero h1 {
@@ -78,20 +76,98 @@ Home
 	font-weight: bolder;
 }
 
-.line {
+.hero-line {
 	border-bottom: 4px solid #fff;
 	position: relative;
-	top: 30vh;
+	top: 35vh;
     left: 15px;
     width: 7%;
 }
 
+.line {
+	border-bottom: 4px solid #fff;
+	position: relative;
+	left: 55px;
+    width: 7%;
+    margin: 20px 0px;
+}
+
+.section-space {
+	margin-top: 30px;
+    margin-bottom: 55px;
+}
+
 .teachin img {
 	position: relative;
-	left: 25%;
-	width: 45vw;
+	left: 16%;
+	width: 55vw;
 	border: 10px solid #fff; 
 }
 
-.teachin h3 {
+.contact {
+}
+
+.contact h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 10vmin;
+	font-weight: bold;
+}
+
+.contact h3 {
+	color: #fff;
+	line-height: 1.3;
+	font-size: 4vmin;
+	position: relative;
+	left: 40px;
+}
+
+.contact ul {
+	position: relative;
+	left: 40px;
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+}
+
+.contact li {
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	top: 25px;
+	margin-right: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#text-underline {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 3px;
+}
+
+.contact-container {
+    padding: 0;
+    margin:0;
+    width: 100% !important;
+    background-color: #3f403f;	
+}
+
+.footer-container {
+    padding: 0;
+    margin:0;
+    width: 100% !important;	
+}
+
+.footer-logo img {
+	width: 80px;
+}
+
+.copyright-info {
+	border-top: 1px solid #e95f2b;
+	padding-top: 10px;
+	color: #e95f2b;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-size: 11px;
+	font-weight: bold;
 }
