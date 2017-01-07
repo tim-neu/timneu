@@ -9,16 +9,16 @@ const Nav = function(){
   return (
   	<div>
   		<nav id="navbar">
-  			<div className="row">
-  				<div  className="container">
-  				<ul>
-  					<img src={logo}/>
-  					<li>ABOUT</li>
-  					<li>WORK</li>
-  					<li>CONTACT</li>
-  				</ul>
-  				</div>
-  			</div>
+        <div className="row">
+          <div className="col-md-12">
+            <ul>
+              <img src={logo}/>
+              <li>ABOUT</li>
+              <li>WORK</li>
+              <li>CONTACT</li>
+  			    </ul>
+          </div>
+        </div>
   		</nav>
   	</div>
   )
