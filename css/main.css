@@ -1,5 +1,23 @@
 /*
 
+Fonts
+
+*/
+
+/*@font-face {
+    font-family: 'AvenirNextLTW01Bold';
+    src: url('../fonts/avenir-next-bold.eot');
+    src: url('../fonts/avenir-next-bold.eot') format('embedded-opentype'),
+         url('../fonts/avenir-next-bold.woff') format('woff'),
+         url('../fonts/avenir-next-bold.ttf') format('truetype'),
+         url('../fonts/avenir-next-bold.svg#AvenirNextLTW01BoldRegular') format('svg');
+}*/
+
+
+
+
+/*
+
 Main Nav
 
 */
@@ -48,7 +66,7 @@ Home
 }
 
 .content-container {
-    width: 80% !important;
+    width: 70% !important;
 }
 
 .hero {

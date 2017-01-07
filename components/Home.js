@@ -40,14 +40,14 @@ const Home = function(){
   		</div>
 
   		<div className="contact-container">
-  			<div className="container">
+  			<div className="container content-container">
   				<div className="row section-space">
   					<div className="col-md-12 contact">
   						<h1 className="">Let's chat!</h1>
   					</div>
   				</div>
   				<div className="row section-space">
-  					<div className="col-lg-7 offset-lg-2 contact">
+  					<div className="col-md-12 contact">
   						<h3>If you’d like to work together on a project,<br/>message me at <span id="text-underline">neu.timothee@gmail.com</span>.</h3>
   						<div className="row">
   							<div className="col-xs-1 line">
@@ -68,7 +68,7 @@ const Home = function(){
   		</div>
 
   		<div className="footer-container">
-  			<div className="container">
+  			<div className="container content-container">
   				<div className="row section-space">
   					<div className="col-md-4">
   						<div className="footer-logo">
