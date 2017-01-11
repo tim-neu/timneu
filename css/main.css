@@ -314,3 +314,28 @@ Fade Start
   animation: bounce 3s infinite;
 }
 
+#thumb {
+	width: 100%;
+
+}
+
+#red {
+	background-color: red;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+#blue {
+	background-color: blue;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+#green {
+	background-color: green;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}

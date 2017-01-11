@@ -13,9 +13,9 @@ const Nav = function(){
           <div className="col-md-12 content-container center">
             <ul>
               <img src={logo}/>
-              <li>ABOUT</li>
-              <li>WORK</li>
               <li>CONTACT</li>
+              <li>WORK</li>
+              <li>ABOUT</li>
   			    </ul>
           </div>
         </div>
