@@ -2,7 +2,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import sr from './scrollReveal.js';
+import Reveal from 'react-reveal'; // this package
+import 'animate.css/animate.css'; // CSS animation effects library
+import Headroom from 'react-headroom';
+
 
 // Components
 import Nav from './Nav.js';
@@ -17,20 +20,6 @@ var Home = React.createClass({
   },
   componentDidMount: function() {
     this.setState({ mounted: true });
-
-    const config1 = {
-      origin: 'left',
-      duration: 1000,
-      delay: 150,
-      distance: '500px',
-      scale: 1,
-      easing: 'ease',
-      reset: true,
-      viewFactor: 0.2,
-      visibility: 'hidden'
-    }
-
-    sr.reveal('.teachin', config1)
   },
   render: function() {
     var name = this.state.mounted ?
@@ -45,10 +34,13 @@ var Home = React.createClass({
 
     return (
       <div>
+  						<Headroom disableInlineStyles
+  						style={{ boxShadow: '1px 1px 1px 2px rgba(0,0,0,0.05)'}}>
+  						<Nav />
+  						</Headroom>
   			<div className="container home-container">
   				<div className="container content-container">
   					<div className="hero">
-  						<Nav />
   						<div className="headline">
   							<ReactCSSTransitionGroup
   							transitionName="fade"
@@ -70,14 +62,17 @@ var Home = React.createClass({
   				<div className="row">
   					<div className="col-md-12">
   						<div className="teachin">
-  							<h3 className="text-center">Latest Work</h3>
-  							<img src={teachin} />
+  							<Reveal effect="animated fadeInLeft">
+  								<h3 className="text-center">Latest Work</h3>
+  								<img src={teachin} />
+  							</Reveal>
   						</div>
   					</div>
   				</div>
   			</div>
 	
   			<div className="contact-container">
+  			<Reveal effect="animated fadeInLeft">
   				<div className="container content-container">
   					<div className="row section-space">
   						<div className="col-md-12 contact">
@@ -103,6 +98,7 @@ var Home = React.createClass({
   						</div>
   					</div>
   				</div>
+  			</Reveal>
   			</div>
 	
   			<div className="footer-container">

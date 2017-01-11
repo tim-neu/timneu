@@ -10,7 +10,7 @@ const Nav = function(){
   	<div>
   		<nav id="navbar">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 content-container center">
             <ul>
               <img src={logo}/>
               <li>ABOUT</li>
