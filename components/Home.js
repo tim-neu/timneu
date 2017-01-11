@@ -34,26 +34,26 @@ var Home = React.createClass({
 
     return (
       <div>
-  						<Headroom disableInlineStyles
-  						style={{ boxShadow: '1px 1px 1px 2px rgba(0,0,0,0.05)'}}>
-  						<Nav />
-  						</Headroom>
+  			<Headroom disableInlineStyles>
+  				<Nav />
+  			</Headroom>
   			<div className="container home-container">
   				<div className="container content-container">
   					<div className="hero">
   						<div className="headline">
   							<ReactCSSTransitionGroup
-  							transitionName="fade"
-          			transitionEnterTimeout={700}
-          			transitionLeaveTimeout={700}>
-  							{name}
-  							{title}
+  								transitionName="fade"
+          				transitionEnterTimeout={700}
+          				transitionLeaveTimeout={700}>
+  								{name}
+  								{title}
   							</ReactCSSTransitionGroup>
   						</div>
   						<div className="row" id="hero">
   							<div className="col-xs-1 hero-line">
   							</div>
   						</div>
+  						<div className="arrow bounce"></div>
   					</div>
   				</div>
   			</div>
