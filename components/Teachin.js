@@ -21,10 +21,10 @@ const Teachin = function(){
 		<div>
 			<Nav />
 
-			<div className="row">
-				<div id="banner">
-					<img src={teachinBanner} />
-				</div>
+			<div className="container wide-container">
+					<div id="banner">
+						<img src={teachinBanner} />
+					</div>
 			</div>
 
 			<div className="project-info">
@@ -38,6 +38,7 @@ const Teachin = function(){
 						<div className="col-xs-4">
 							<h4>Technologies</h4>
 							<ul>
+								<li>Javascript</li>
 								<li>React</li>
 								<li>Redux</li>
 								<li>Postgres</li>
@@ -49,11 +50,11 @@ const Teachin = function(){
 				</div>
 			</div>
 
-			<div className="row">
+
 				<div id="desktop-img">
 					<img src={desktop} />
 				</div>
-			</div>
+
 
 			<div className="project-info">
 				<div className="container">

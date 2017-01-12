@@ -346,9 +346,15 @@ Fade Start
 }
 
 #banner iframe {
-	width: 100%;
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
+}
+
+.wide-container {
+    padding: 0;
+    margin:0;
+    width: 100%;
 }
 
 .project-info {
@@ -390,3 +396,31 @@ Fade Start
 	margin: 15px 0px;
 }
 
+#poster-img img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.cosmic-img {
+	padding: 0px;
+	margin: 0px;
+}
+
+#orange-info {
+	background-color: #e95f2b;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+#gray-info {
+	background-color: #3f403f;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
