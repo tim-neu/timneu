@@ -345,6 +345,12 @@ Fade Start
 	padding: 0px;
 }
 
+#banner iframe {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
 .project-info {
 	background-color: #F4F4F4;
 	padding: 70px 0px;
