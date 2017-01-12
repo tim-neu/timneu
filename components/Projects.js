@@ -20,8 +20,8 @@ class Projects extends Component {
 
 	render () {
 		return (
-			<div>
-				<div className="row">
+			<div className="container wide-container">
+				<div className="row wide-container">
 					<div className="col-sm-4" id="red">
 						<Link to="teachin"><img src={teachinThumb} id="thumb" /></Link>
 					</div>
@@ -33,7 +33,7 @@ class Projects extends Component {
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row wide-container">
 					<div className="col-sm-4" id="red">
 						<Link to="nos-sweeps"><img src={nosSweepsThumb} id="thumb" /></Link>
 					</div>
@@ -45,7 +45,7 @@ class Projects extends Component {
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row wide-container">
 					<div className="col-sm-4" id="red">
 						<Link to="chambord"><img src={chambordThumb} id="thumb" /></Link>
 					</div>

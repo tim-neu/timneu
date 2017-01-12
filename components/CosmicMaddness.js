@@ -10,13 +10,15 @@ import Footer from './Footer.js';
 
 //Assets
 import cosmicMaddnessPoster from '../assets/projects/cosmic-maddness/CosmicMadness_Poster_Mockup.png';
+import buttonsCloseUp from '../assets/projects/cosmic-maddness/CosmicMadness_Buttons_CloseUp.jpg';
+import wheel from '../assets/projects/cosmic-maddness/CosmicMadness_Wheel.jpg';
 
 const CosmicMaddness = function(){
 	return (
 		<div>
 			<Nav />
 
-			<div className="home-container row">
+			<div className="home-container">
 				<div id="banner">
 					<iframe src="https://player.vimeo.com/video/105575807" width="1100" height="619" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
@@ -38,12 +40,49 @@ const CosmicMaddness = function(){
 							</ul>
 						</div>
 					</div>
+					<div className="row">
+						<div className="col-sm-8">
+							<h4>Client</h4>
+							<a href="http://asi.cpp.edu/student-government/bronco-events-activities-team/">Cal Poly Pomona Associated Students Inc., BEAT</a>
+						</div>
+					</div>
 				</div>
 			</div>
 
-			<div className="row">
-				<div id="poster-img">
-					<img src={cosmicMaddnessPoster} />
+			<div className="container">
+				<div className="row">
+					<div className="col-md-2">
+					</div>
+					<div className="col-md-8">
+						<div id="poster-img">
+							<img src={cosmicMaddnessPoster} />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="row" id="gray-info"> 
+				<div className="col-md-6 cosmic-img">
+					<div id="poster-img">
+						<img src={buttonsCloseUp} />
+					</div>
+				</div>
+				<div className="col-md-6 cosmic-img">
+					<div>
+						
+					</div>
+				</div>
+			</div>
+			<div className="row" id="orange-info"> 
+				<div className="col-md-6 cosmic-img">
+					<div>
+						
+					</div>
+				</div>
+				<div className="col-md-6 cosmic-img">
+					<div id="poster-img">
+						<img src={wheel} />
+					</div>
 				</div>
 			</div>
 
