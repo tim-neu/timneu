@@ -316,7 +316,6 @@ Fade Start
 
 #thumb {
 	width: 100%;
-
 }
 
 #red {
@@ -339,3 +338,49 @@ Fade Start
 	margin: 0px;
 	padding: 0px;
 }
+
+#banner img {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.project-info {
+	background-color: #F4F4F4;
+	padding: 70px 0px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.project-info ul {
+	padding: 0px;
+}
+
+.project-info li {
+	list-style: none;
+	font-size: 14px;
+	font-weight: 300;
+	color: #6600DD;
+}
+
+.project-info h4 {
+	padding-bottom: 20px;
+}
+
+#desktop-img img {
+	width: 75vw;
+	margin-left: 14vw;
+}
+
+.project-info p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+#teachin-icons img {
+	width: 100%;
+	margin: 15px 0px;
+}
+
