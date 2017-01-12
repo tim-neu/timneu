@@ -9,7 +9,7 @@ import Projects from './Projects.js';
 import Footer from './Footer.js';
 
 //Assets
-import teachinBanner from '../assets/projects/teachin/teach-in-banner-2.jpg';
+import teachinBanner from '../assets/projects/teachin/teach-in-banner.jpg';
 import desktop from '../assets/projects/teachin/teachin-desk-01.jpg';
 import gradesIcon from '../assets/projects/teachin/teach-in-icon-set-03.jpg';
 import scheduleIcon from '../assets/projects/teachin/teach-in-icon-set-02.jpg';
@@ -32,7 +32,7 @@ const Teachin = function(){
 					<div className="row">
 						<div className="col-sm-8">
 							<h4>Teach.in</h4>
-							<p>Teach.in is an education management system that provides teachers and students with a platform to efficiently administrate and track typical class activities.</p>
+							<p>Teach.in is an education management system that provides teachers and students with a platform to efficiently administrate and track daily class activities.</p>
 							<p><a href="https://teachin.herokuapp.com/home">Check it out!</a></p>
 						</div>
 						<div className="col-xs-4">
