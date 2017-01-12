@@ -1,6 +1,6 @@
 // Libs
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 
 // Assets
 import logo from '../assets/tn_logo_white_transparent.png'
@@ -12,10 +12,10 @@ const Nav = function(){
         <div className="row">
           <div className="col-md-12 content-container center">
             <ul>
-              <img src={logo}/>
-              <li>CONTACT</li>
-              <li>WORK</li>
-              <li>ABOUT</li>
+              <Link to="/home"><img src={logo}/></Link>
+              <li><Link to="/contact">CONTACT</Link></li>
+              <li><Link to="/work">WORK</Link></li>
+              <li><Link to="/about">ABOUT</Link></li>
   			    </ul>
           </div>
         </div>
