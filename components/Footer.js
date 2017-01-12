@@ -1,5 +1,6 @@
 //Libs
 import React from 'react';
+import { Link, browserHistory } from 'react-router';
 
 // Assets
 import tn_logo_lg from '../assets/tn_logo.png';
@@ -11,7 +12,7 @@ const Footer = function(){
         <div className="row section-space">
           <div className="col-md-4">
             <div className="footer-logo">
-              <img src={tn_logo_lg}/>
+              <Link to="home"><img src={tn_logo_lg}/></Link>
             </div>
           </div>
           <div className="col-md-4">
