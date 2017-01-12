@@ -1,14 +1,15 @@
 // Libs
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import Reveal from 'react-reveal'; // this package
+import Reveal from 'react-reveal';
 import 'animate.css/animate.css'; // CSS animation effects library
 import Headroom from 'react-headroom';
 
 
 // Components
 import Nav from './Nav.js';
+import Footer from './Footer.js';
 
 // Assets
 import teachin from '../assets/teachin.jpg';
@@ -100,33 +101,8 @@ var Home = React.createClass({
   				</div>
   			</Reveal>
   			</div>
-	
-  			<div className="footer-container">
-  				<div className="container content-container">
-  					<div className="row section-space">
-  						<div className="col-md-4">
-  							<div className="footer-logo">
-  								<img src={tn_logo_lg}/>
-  							</div>
-  						</div>
-  						<div className="col-md-4">
-  							<div className="footer">
-  								<h3 className=""></h3>
-  							</div>
-  						</div>
-  						<div className="col-md-4">
-  							<div className="footer">
-  								<h3 className=""></h3>
-  							</div>
-  						</div>
-  					</div>
-  					<div className="row">
-  						<div className="col-md-12 copyright-info">
-  							<p>© 2017 Tim Neumann / Interactive Designer / Developer</p>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
+
+  			<Footer />
   		</div>
     );
   }

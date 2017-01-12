@@ -1,5 +1,6 @@
 //Libs
 import React, { Component } from 'react';
+import { Link, browserHistory } from 'react-router';
 
 // Assets
 import teachinThumb from '../assets/projects/teachin/teach-in-thumb.jpg';
@@ -21,38 +22,38 @@ class Projects extends Component {
 		return (
 			<div>
 				<div className="row">
-					<div className="col-md-4" id="red">
-						<img src={teachinThumb} id="thumb" />
+					<div className="col-sm-4" id="red">
+						<Link to="teachin"><img src={teachinThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-md-4" id="blue">
-						<img src={cosmicMaddnessThumb} id="thumb" />
+					<div className="col-sm-4" id="blue">
+						<Link to="cosmic-maddness"><img src={cosmicMaddnessThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-md-4" id="green">
-						<img src={fullThrottleThumb} id="thumb" />
-					</div>
-				</div>
-
-				<div className="row">
-					<div className="col-md-4" id="red">
-						<img src={nosSweepsThumb} id="thumb" />
-					</div>
-					<div className="col-md-4" id="blue">
-						<img src={wtniwThumb} id="thumb" />
-					</div>
-					<div className="col-md-4" id="green">
-						<img src={painInTheGasThumb} id="thumb" />
+					<div className="col-sm-4" id="green">
+						<Link to="full-throttle"><img src={fullThrottleThumb} id="thumb" /></Link>
 					</div>
 				</div>
 
 				<div className="row">
-					<div className="col-md-4" id="red">
-						<img src={chambordThumb} id="thumb" />
+					<div className="col-sm-4" id="red">
+						<Link to="nos-sweeps"><img src={nosSweepsThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-md-4" id="blue">
-						<img src={wslThumb} id="thumb" />
+					<div className="col-sm-4" id="blue">
+						<Link to="wtniw"><img src={wtniwThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-md-4" id="green">
-						<img src={cppgtThumb} id="thumb" />
+					<div className="col-sm-4" id="green">
+						<Link to="pitg"><img src={painInTheGasThumb} id="thumb" /></Link>
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-sm-4" id="red">
+						<Link to="chambord"><img src={chambordThumb} id="thumb" /></Link>
+					</div>
+					<div className="col-sm-4" id="blue">
+						<Link to="wsl-pure"><img src={wslThumb} id="thumb" /></Link>
+					</div>
+					<div className="col-sm-4" id="green">
+						<Link to="cppgt"><img src={cppgtThumb} id="thumb" /></Link>
 					</div>
 				</div>
 			</div>
