@@ -10,8 +10,13 @@ import Footer from './Footer.js';
 
 //Assets
 import cosmicMaddnessPoster from '../assets/projects/cosmic-maddness/CosmicMadness_Poster_Mockup.png';
-import buttonsCloseUp from '../assets/projects/cosmic-maddness/CosmicMadness_Buttons_CloseUp.jpg';
 import wheel from '../assets/projects/cosmic-maddness/CosmicMadness_Wheel.jpg';
+import cmBtn1 from '../assets/projects/cosmic-maddness/CosmicMadness_Buttons_CloseUp.jpg';
+import cmBtn2 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL13_Buttons-01.png';
+import cmBtn3 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL13_Buttons-02.png';
+import cmBtn4 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL13_Buttons-03.png';
+import cmBtn5 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL13_Buttons-04.png';
+import cmBtn6 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL13_Buttons-05.png';
 
 const CosmicMaddness = function(){
 	return (
@@ -64,7 +69,7 @@ const CosmicMaddness = function(){
 			<div className="row" id="gray-info"> 
 				<div className="col-md-6 cosmic-img">
 					<div id="poster-img">
-						<img src={buttonsCloseUp} />
+						<img src={cmBtn1} id="btn-img" />
 					</div>
 				</div>
 				<div className="col-md-6 cosmic-img">
@@ -90,30 +95,13 @@ const CosmicMaddness = function(){
 				<div className="container">
 					<Reveal effect="animated fadeInLeft">
 						<div className="row text-center">
-							<h4>Core Features</h4>
+							<h4>Digital</h4>
 						</div>
 					</Reveal>
 
 					<div className="row text-center">
 						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Manage Grades</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInRight">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Organize Schedules</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Share Rescources</p>
-								</div>
+							<div className="col-md-12">
 							</div>
 						</Reveal>
 					</div>
