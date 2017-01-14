@@ -402,6 +402,13 @@ Fade Start
 	margin: 0px;
 }
 
+#slider img {
+	overflow: hidden; 
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
 .cosmic-img {
 	padding: 0px;
 	margin: 0px;
