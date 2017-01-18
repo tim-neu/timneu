@@ -3,7 +3,7 @@ import React from 'react';
 import { Link, browserHistory } from 'react-router';
 
 // Assets
-import logo from '../assets/tn_logo_white_transparent.png'
+import logo from '../assets/tn_logo.png'
 
 const Nav = function(){
   return (

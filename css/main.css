@@ -26,6 +26,7 @@ Main Nav
 	/*position: relative;*/
 	/*top: 50px;*/
 	background-color: #F4F4F4;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
 }
 
 #navbar .row {
@@ -51,6 +52,10 @@ Main Nav
 	font-size: 12px;
 	font-weight: bold;
 	color: #fff;
+}
+
+#navbar li a {
+	color: #e95f2b;
 }
 
 .headroom {
@@ -86,7 +91,7 @@ Home
     padding: 0;
     margin:0;
     width: 100% !important;
-    background-color: #e95f2b;
+    background-color: #F4F4F4;
 }
 
 .content-container {
@@ -112,20 +117,20 @@ Home
 	font-weight: 800;
 	font-size: 12vmin;
 	letter-spacing: 0.05em;
-	color: #fff;
+	color: #e95f2b;
 	margin: 0px;
 }
 
 .hero h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 3vmin;
-	color: #fff;
+	color: #e95f2b;
 	margin: 0px;
 	font-weight: 700;
 }
 
 .hero-line {
-	border-bottom: 4px solid #fff;
+	border-bottom: 4px solid #e95f2b;
 	position: relative;
 	top: 35vh;
     left: 15px;
@@ -143,6 +148,16 @@ Home
 .section-space {
 	margin-top: 30px;
     margin-bottom: 55px;
+}
+
+.section-space-1 {
+	margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.section-space-2 {
+	margin-top: 0px;
+    margin-bottom: 85px;
 }
 
 .teachin img {
@@ -188,9 +203,18 @@ Home
 	color: #fff;
 }
 
+.contact li a {
+	color: #fff;
+}
+
 #text-underline {
 	border-bottom: 2px solid #fff;
 	padding-bottom: 3px;
+	color: #fff;
+}
+
+#text-underline:hover {
+		text-decoration: none;
 }
 
 .contact-container {
@@ -345,6 +369,12 @@ Fade Start
 	padding: 0px;
 }
 
+#ft-banner img {
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
 #banner iframe {
 	margin: 0px;
 	padding: 0px;
@@ -410,6 +440,12 @@ Fade Start
 }
 
 .cosmic-img {
+	padding: 0px;
+	margin: 0px;
+}
+
+.banner-gif {
+	width: 100%;
 	padding: 0px;
 	margin: 0px;
 }
