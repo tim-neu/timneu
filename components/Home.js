@@ -94,7 +94,7 @@ var Home = React.createClass({
   										<ul>
   											<li><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
   											<li><a href="https://github.com/tim-neu">GitHub</a></li>
-  											<li><a href="https://www.instagram.com/taneumann/?hl=en">Instagram</a></li>
+  											<li><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
   										</ul>
   									</div>
   								</div>
