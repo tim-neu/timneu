@@ -2,6 +2,7 @@
 import React from 'react';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
+import Headroom from 'react-headroom';
 
 //Components
 import Nav from './Nav.js';
@@ -21,7 +22,9 @@ import cmBtn6 from '../assets/projects/cosmic-maddness/BEAT_Cosmic-Madness_FALL1
 const CosmicMaddness = function(){
 	return (
 		<div>
-			<Nav />
+			<Headroom disableInlineStyles>
+				<Nav />
+			</Headroom>
 
 			<div className="home-container">
 				<div id="banner">
@@ -101,7 +104,8 @@ const CosmicMaddness = function(){
 
 					<div className="row text-center">
 						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-12">
+							<div className="col-md-12 banner-gif">
+								<img src={"https://static1.squarespace.com/static/534ad1b8e4b06a4afe15562c/t/5600e94be4b07aebe017e8e6/1442900345010/?format=1500w"} />
 							</div>
 						</Reveal>
 					</div>

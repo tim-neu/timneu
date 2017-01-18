@@ -73,33 +73,35 @@ var Home = React.createClass({
   			</div>
 	
   			<div className="contact-container">
-  			<Reveal effect="animated fadeInLeft">
   				<div className="container content-container">
-  					<div className="row section-space">
-  						<div className="col-md-12 contact">
-  							<h1 className="">Let's chat!</h1>
-  						</div>
-  					</div>
-  					<div className="row section-space">
-  						<div className="col-md-12 contact">
-  							<h3>If you’d like to work together on a project,<br/>message me at <span id="text-underline">neu.timothee@gmail.com</span>.</h3>
-  							<div className="row">
-  								<div className="col-xs-1 line">
-  								</div>
-  							</div>
-  							<div className="row">
-  								<div className="col-md-8 offset-lg-2 contact">
-  									<ul>
-  										<li>Linked.in</li>
-  										<li>GitHub</li>
-  										<li>Instagram</li>
-  									</ul>
-  								</div>
+  					<Reveal effect="animated fadeInLeft">
+  						<div className="row section-space-1">
+  							<div className="col-md-12 contact">
+  								<h1 className="">Let's chat!</h1>
   							</div>
   						</div>
+  					</Reveal>
+  					<div className="row section-space-2">
+  						<Reveal effect="animated fadeInLeft">
+  							<div className="col-md-12 contact">
+  								<h3>If you’d like to work together on a project,<br/>message me at <a href="neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
+  								<div className="row">
+  									<div className="col-xs-1 line">
+  									</div>
+  								</div>
+  								<div className="row">
+  									<div className="col-md-8 offset-lg-2 contact">
+  										<ul>
+  											<li><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
+  											<li><a href="https://github.com/tim-neu">GitHub</a></li>
+  											<li><a href="https://www.instagram.com/taneumann/?hl=en">Instagram</a></li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+  						</Reveal>
   					</div>
   				</div>
-  			</Reveal>
   			</div>
 
   			<Footer />

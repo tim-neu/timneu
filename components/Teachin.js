@@ -2,6 +2,7 @@
 import React from 'react';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
+import Headroom from 'react-headroom';
 
 //Components
 import Nav from './Nav.js';
@@ -19,7 +20,9 @@ import rescourcesIcon from '../assets/projects/teachin/teach-in-icon-set-05.jpg'
 const Teachin = function(){
 	return (
 		<div>
-			<Nav />
+			<Headroom disableInlineStyles>
+				<Nav />
+			</Headroom>
 
 			<div className="container wide-container">
 					<div id="banner">
