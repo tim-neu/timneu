@@ -84,7 +84,7 @@ var Home = React.createClass({
   					<div className="row section-space-2">
   						<Reveal effect="animated fadeInLeft">
   							<div className="col-md-12 contact">
-  								<h3>If you’d like to work together on a project,<br/>message me at <a href="neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
+  								<h3>If you’d like to work together on a project,<br/>message me at <a href="mailto:neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
   								<div className="row">
   									<div className="col-xs-1 line">
   									</div>
