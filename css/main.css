@@ -376,6 +376,12 @@ Fade Start
 	padding: 0px;
 }
 
+#wsl-elements img {
+	width: 70vmax;
+	margin: 0px;
+	padding: 0px;
+}
+
 #wtniw-img {
 	width: 100%;
 	margin-left: auto;
@@ -409,6 +415,13 @@ Fade Start
 
 .project-info ul {
 	padding: 0px;
+}
+
+.elements-info {
+	background-color: #B3B3B3;
+	padding: 70px 0px;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 .project-info li {

@@ -50,6 +50,12 @@ const Chambord = function(){
 							</ul>
 						</div>
 					</div>
+					<div className="row">
+						<div className="col-sm-8">
+							<h4>Client</h4>
+							<p>Chambord®</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
