@@ -490,11 +490,29 @@ Fade Start
 	padding-bottom: 80px;
 }
 
+.gray-bg {
+	background-color: #F4F4F4;
+}
+
 iframe {
 	border: none;
 }
 
 .wtniw-gif {
 	margin: 0px;
+}
+
+.infographic {
+	background-color: #f06651;
+	padding: 70px 0px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.pitg-gif {
+    position: relative;
+    left: 25vw;
+    right: 25vw;
+    margin-bottom: 20px;
 }
 
