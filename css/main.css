@@ -145,6 +145,11 @@ Home
     margin: 20px 0px;
 }
 
+.remove-pad-margin {
+	margin: 0px;
+	padding: 0px;
+}
+
 .section-space {
 	margin-top: 30px;
     margin-bottom: 55px;
@@ -456,6 +461,11 @@ Fade Start
 	margin: 0px;
 }
 
+.white-header {
+	color: #fff;
+	margin-bottom: 40px;
+}
+
 #orange-info {
 	background-color: #e95f2b;
 	color: #fff;
@@ -473,3 +483,18 @@ Fade Start
 	font-weight: 300;
 	line-height: 1.5;
 }
+
+.black-bg {
+	background-color: #000;
+	padding: 40px 0px;
+	padding-bottom: 80px;
+}
+
+iframe {
+	border: none;
+}
+
+.wtniw-gif {
+	margin: 0px;
+}
+
