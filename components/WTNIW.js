@@ -54,31 +54,52 @@ const WTNIW = function(){
 					</div>
 				</div>
 			</div>
-
-				<div className="container section-space-1">
+			<div className="black-bg">
+				<div className="container">
+					<h4 className="white-header text-center">Digital</h4>
 					<div className="row">
-						<div className="section-space-1">
-							<img id="wtniw-img" src={wtniwSocBanner1} />
+						<div className="col-md-3 wtniw-gif">
+							<iframe src="//giphy.com/embed/26gstFju5YgjOImu4" width="228" height="190" frameBorder="0"></iframe>
 						</div>
-						<div className="section-space-1">
-							<img id="wtniw-img" src={wtniwSocBanner2} />
+						<div className="col-md-3 wtniw-gif">
+							<iframe src="//giphy.com/embed/l0Exd1HyiByzBZUNW" width="228" height="190" frameBorder="0"></iframe>
+						</div>
+						<div className="col-md-3 wtniw-gif">
+							<iframe src="//giphy.com/embed/l0Ex0wzwEPiM4IzaE" width="228" height="190" frameBorder="0"></iframe>
+						</div>
+						<div className="col-md-3 wtniw-gif">
+							<iframe src="//giphy.com/embed/l0ExvQEaJHlNOxt3q" width="228" height="190" frameBorder="0"></iframe>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div className="container section-space-1">
-					<div className="row">
-						<div className="section-space-1">
-							<img id="wtniw-img" src={firasLogo} />
-						</div>
-						<div className="section-space-1">
-							<img id="wtniw-img" src={firasShirt} />
-						</div>
-						<div className="section-space-1">
-							<img id="wtniw-img" src={firasShirt2} />
-						</div>
+			<div className="container section-space-1">
+				<h4 className="text-center">#WTNIW</h4>
+				<div className="row">
+					<div className="section-space-1">
+						<img id="wtniw-img" src={wtniwSocBanner1} />
+					</div>
+					<div className="section-space-1">
+						<img id="wtniw-img" src={wtniwSocBanner2} />
 					</div>
 				</div>
+			</div>
+
+			<div className="container section-space-1">
+				<h4 className="text-center">Athlete Branding</h4>
+				<div className="row">
+					<div className="section-space-1">
+						<img id="wtniw-img" src={firasLogo} />
+					</div>
+					<div className="section-space-1">
+						<img id="wtniw-img" src={firasShirt} />
+					</div>
+					<div className="section-space-1">
+						<img id="wtniw-img" src={firasShirt2} />
+					</div>
+				</div>
+			</div>
 
 
 			<div className="project-info">
