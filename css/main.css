@@ -1,23 +1,5 @@
 /*
 
-Fonts
-
-*/
-
-/*@font-face {
-    font-family: 'AvenirNextLTW01Bold';
-    src: url('../fonts/avenir-next-bold.eot');
-    src: url('../fonts/avenir-next-bold.eot') format('embedded-opentype'),
-         url('../fonts/avenir-next-bold.woff') format('woff'),
-         url('../fonts/avenir-next-bold.ttf') format('truetype'),
-         url('../fonts/avenir-next-bold.svg#AvenirNextLTW01BoldRegular') format('svg');
-}*/
-
-
-
-
-/*
-
 Main Nav
 
 */
@@ -158,6 +140,11 @@ Home
 .section-space-1 {
 	margin-top: 35px;
     margin-bottom: 25px;
+}
+
+.section-padding-1 {
+	padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .section-space-2 {
@@ -347,6 +334,15 @@ Fade Start
 	width: 100%;
 }
 
+#chambord-post {
+	width: 90%;
+}
+
+#gallery-img {
+	margin: 0px;
+	padding: 0px;
+}
+
 #red {
 	background-color: red;
 	color: white;
@@ -395,6 +391,12 @@ Fade Start
 .wide-container {
     padding: 0;
     margin:0;
+    width: 100%;
+}
+
+.wide-container-2 {
+    padding: 0;
+    margin: 36px 0px;
     width: 100%;
 }
 

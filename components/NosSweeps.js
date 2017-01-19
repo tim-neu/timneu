@@ -49,10 +49,9 @@ const NosSweeps = function(){
 				</div>
 			</div>
 
-
-				<div id="ft-banner">
-					<img src={nosSweepsWires} />
-				</div>
+			<div id="ft-banner">
+				<img src={nosSweepsWires} />
+			</div>
 
 			<Projects />
 			<Footer />
