@@ -13,7 +13,6 @@ const Nav = function(){
           <div className="col-md-12 content-container center">
             <ul>
               <Link to="/home"><img src={logo}/></Link>
-              <li><Link to="/contact">CONTACT</Link></li>
               <li><Link to="/work">WORK</Link></li>
               <li><Link to="/about">ABOUT</Link></li>
   			    </ul>
