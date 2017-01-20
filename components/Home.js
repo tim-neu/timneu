@@ -65,7 +65,7 @@ var Home = React.createClass({
   						<div className="teachin">
   							<Reveal effect="animated fadeInLeft">
   								<h3 className="text-center">Latest Work</h3>
-  								<img src={teachin} />
+  								<Link to="teachin"><img src={teachin} /></Link>
   							</Reveal>
   						</div>
   					</div>
