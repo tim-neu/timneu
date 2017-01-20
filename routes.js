@@ -6,6 +6,7 @@ import { Router, Route, IndexRedirect, browserHistory } from 'react-router';
 import App from './index.js';
 import Home from './components/Home.js';
 import Work from './components/Work.js';
+import About from './components/About.js';
 import Teachin from './components/Teachin.js';
 import CosmicMaddness from './components/CosmicMaddness.js';
 import FullThrottle from './components/FullThrottle.js';
@@ -26,6 +27,7 @@ const routes = (
 	  <Route path="home" component={Home} />
 	  <Route path="projects" component={Projects} />
 	  <Route path="work" component={Work} />
+	  <Route path="about" component={About} />
 	  	<Route path="teachin" component={Teachin} />
 	  	<Route path="cosmic-maddness" component={CosmicMaddness} />
 	  	<Route path="full-throttle" component={FullThrottle} />
