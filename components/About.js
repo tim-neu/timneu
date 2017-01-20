@@ -12,7 +12,7 @@ import Footer from './Footer.js';
 //Assets
 import timN from '../assets/TimN-2.jpg';
 
-const CPPGT = function(){
+const About = function(){
 	return (
 		<div>
 			<Headroom disableInlineStyles>
@@ -48,6 +48,10 @@ const CPPGT = function(){
 					<div className="row">
 						<div className="col-sm-7">
 							<h4>If you want to collaborate on building an awesome product for people – you are very welcome to contact me.</h4>
+							<p><strong>Email:</strong><a href="mailto:neu.timothee@gmail.com" className="about-email"> neu.timothee@gmail.com</a></p>
+							<p><strong>Mobile:</strong> 714-230-9130</p>
+							<p><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/timaneumann"> @timaneumann</a></p>
+							<p><strong>GitHub:</strong><a href="https://github.com/tim-neu"> @tim-neu</a></p>
 						</div>
 					</div>
 				</div>
@@ -58,4 +62,4 @@ const CPPGT = function(){
 	);
 };
 
-export default CPPGT;
+export default About;
