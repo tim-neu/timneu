@@ -62,37 +62,55 @@ const Chambord = function(){
 			<div className="container">
 				<div className="row wide-container-2">
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord1} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord2} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord3} id="chambord-post" />
+					</Reveal>
 					</div>
 				</div>
 
 				<div className="row wide-container-2">
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord4} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord5} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord6} id="chambord-post" />
+					</Reveal>
 					</div>
 				</div>
 
 				<div className="row wide-container-2">
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord7} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord8} id="chambord-post" />
+					</Reveal>
 					</div>
 					<div className="col-sm-4" id="gallery-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={chambord9} id="chambord-post" />
+					</Reveal>
 					</div>
 				</div>
 			</div>
@@ -102,12 +120,16 @@ const Chambord = function(){
 					<div className="row">
 						<div className="col-sm-6">
 							<div className="">
+							<Reveal effect="animated fadeInUp">
 								<iframe src="https://player.vimeo.com/video/149361602" width="520" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</Reveal>
 							</div>
 						</div>
 						<div className="col-sm-6">
 							<div className="">
+							<Reveal effect="animated fadeInUp">
 								<iframe src="https://player.vimeo.com/video/149363250" width="520" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</Reveal>
 							</div>
 						</div>
 					</div>
