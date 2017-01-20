@@ -56,26 +56,33 @@ const WSL = function(){
 			<div className="elements-info">
 				<div className="container wide-container">
 					<div className="container content-container">
+					<Reveal effect="animated fadeInUp">
 						<div id="wsl-elements">
 							<img src={wslElements} />
 							<p>The design goal for this project was to give P.U.R.E. a visual identity that helps tie it back into the WSL. To accomplish this I took elements from the old logo such as the wave, the uniform stroke width, and icon style and combined it with a new forward-facing wave and a symbol of the ocean's most majestic creature.</p>
 						</div>
+					</Reveal>
 					</div>
 				</div>
 			</div>
 
 			<div className="container section-space-1">
 				<div className="row">
+				<Reveal effect="animated fadeInUp">
 					<div className="section-space-1">
 						<img id="wtniw-img" src={wslWebsite} />
 					</div>
+				</Reveal>
+				<Reveal effect="animated fadeInUp">
 					<div className="section-space-1">
 						<img id="wtniw-img" src={wslWebsiteLg} />
 					</div>
+				</Reveal>
+				<Reveal effect="animated fadeInUp">
 					<div className="section-space-1">
 						<img id="wtniw-img" src={wslShirt} />
 					</div>
-
+				</Reveal>
 				</div>
 			</div>
 

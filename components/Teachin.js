@@ -1,5 +1,5 @@
 //Libs
-import React from 'react';
+import React, { Component } from 'react';
 import Reveal from 'react-reveal';
 import 'animate.css/animate.css';
 import Headroom from 'react-headroom';
@@ -17,7 +17,19 @@ import scheduleIcon from '../assets/projects/teachin/teach-in-icon-set-02.jpg';
 import rescourcesIcon from '../assets/projects/teachin/teach-in-icon-set-05.jpg';
 
 
-const Teachin = function(){
+class Teachin extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {};
+	}
+
+	componentDidUpdate() {
+  	window.scrollTo(0,0);
+	}
+
+	render () {
+
 	return (
 		<div>
 			<Headroom disableInlineStyles>
@@ -101,5 +113,6 @@ const Teachin = function(){
 		</div>
 	);
 };
+}
 
 export default Teachin;
