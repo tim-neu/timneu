@@ -59,16 +59,24 @@ const WTNIW = function(){
 					<h4 className="white-header text-center">Digital</h4>
 					<div className="row">
 						<div className="col-md-3 wtniw-gif">
-							<iframe src="//giphy.com/embed/26gstFju5YgjOImu4" width="228" height="190" frameBorder="0"></iframe>
+						<Reveal effect="animated fadeInUp">
+							<iframe src="//giphy.com/embed/26gstFju5YgjOImu4" width="228" height="190"></iframe>
+						</Reveal>
 						</div>
 						<div className="col-md-3 wtniw-gif">
-							<iframe src="//giphy.com/embed/l0Exd1HyiByzBZUNW" width="228" height="190" frameBorder="0"></iframe>
+						<Reveal effect="animated fadeInUp">
+							<iframe src="//giphy.com/embed/l0Exd1HyiByzBZUNW" width="228" height="190"></iframe>
+						</Reveal>
 						</div>
 						<div className="col-md-3 wtniw-gif">
-							<iframe src="//giphy.com/embed/l0Ex0wzwEPiM4IzaE" width="228" height="190" frameBorder="0"></iframe>
+						<Reveal effect="animated fadeInUp">
+							<iframe src="//giphy.com/embed/l0Ex0wzwEPiM4IzaE" width="228" height="190"></iframe>
+						</Reveal>
 						</div>
 						<div className="col-md-3 wtniw-gif">
-							<iframe src="//giphy.com/embed/l0ExvQEaJHlNOxt3q" width="228" height="190" frameBorder="0"></iframe>
+						<Reveal effect="animated fadeInUp">
+							<iframe src="//giphy.com/embed/l0ExvQEaJHlNOxt3q" width="228" height="190"></iframe>
+						</Reveal>
 						</div>
 					</div>
 				</div>
@@ -78,10 +86,14 @@ const WTNIW = function(){
 				<h4 className="text-center">#WTNIW</h4>
 				<div className="row">
 					<div className="section-space-1">
+					<Reveal effect="animated fadeInUp">
 						<img id="wtniw-img" src={wtniwSocBanner1} />
+					</Reveal>
 					</div>
 					<div className="section-space-1">
+					<Reveal effect="animated fadeInUp">
 						<img id="wtniw-img" src={wtniwSocBanner2} />
+					</Reveal>
 					</div>
 				</div>
 			</div>
@@ -90,54 +102,23 @@ const WTNIW = function(){
 				<h4 className="text-center">Athlete Branding</h4>
 				<div className="row">
 					<div className="section-space-1">
+					<Reveal effect="animated fadeInUp">
 						<img id="wtniw-img" src={firasLogo} />
-					</div>
-					<div className="section-space-1">
-						<img id="wtniw-img" src={firasShirt} />
-					</div>
-					<div className="section-space-1">
-						<img id="wtniw-img" src={firasShirt2} />
-					</div>
-				</div>
-			</div>
-
-
-			<div className="project-info">
-				<div className="container">
-					<Reveal effect="animated fadeInLeft">
-						<div className="row text-center">
-							<h4>Core Features</h4>
-						</div>
 					</Reveal>
-
-					<div className="row text-center">
-						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Manage Grades</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInRight">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Organize Schedules</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Share Rescources</p>
-								</div>
-							</div>
-						</Reveal>
+					</div>
+					<div className="section-space-1">
+					<Reveal effect="animated fadeInUp">
+						<img id="wtniw-img" src={firasShirt} />
+					</Reveal>
+					</div>
+					<div className="section-space-1">
+					<Reveal effect="animated fadeInUp">
+						<img id="wtniw-img" src={firasShirt2} />
+					</Reveal>
 					</div>
 				</div>
 			</div>
 
-			<div id="ft-banner">
-			</div>
 			<Projects />
 			<Footer />
 		</div>

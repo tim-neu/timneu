@@ -62,18 +62,22 @@ const CosmicMaddness = function(){
 					<div className="col-md-2">
 					</div>
 					<div className="col-md-8">
+					<Reveal effect="animated fadeInUp">
 						<div id="poster-img">
 							<img src={cosmicMaddnessPoster} />
 						</div>
+					</Reveal>
 					</div>
 				</div>
 			</div>
 
-			<div className="row" id="gray-info"> 
+			<div className="row" id="gray-info">
 				<div className="col-md-6 cosmic-img">
+				<Reveal effect="animated fadeInUp"> 
 					<div id="poster-img">
 						<img src={cmBtn1} id="btn-img" />
 					</div>
+				</Reveal>
 				</div>
 				<div className="col-md-6 cosmic-img">
 					<div>
@@ -88,9 +92,11 @@ const CosmicMaddness = function(){
 					</div>
 				</div>
 				<div className="col-md-6 cosmic-img">
+				<Reveal effect="animated fadeInUp">
 					<div id="poster-img">
 						<img src={wheel} />
 					</div>
+				</Reveal>
 				</div>
 			</div>
 

@@ -58,7 +58,9 @@ const CPPGT = function(){
 					<div className="col-md-8">
 					<Reveal effect="animated fadeInUp">
 						<div id="poster-img">
+						<Reveal effect="animated fadeInUp">
 							<img src={cppgtPoster} />
+						</Reveal>
 						</div>
 					</Reveal>
 					</div>
@@ -69,7 +71,9 @@ const CPPGT = function(){
 				<div className="col-md-6 cosmic-img">
 				<Reveal effect="animated fadeInUp">
 					<div id="poster-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={cppgtBadge} id="btn-img" />
+					</Reveal>
 					</div>
 				</Reveal>
 				</div>
@@ -88,7 +92,9 @@ const CPPGT = function(){
 				<div className="col-md-6 cosmic-img">
 				<Reveal effect="animated fadeInUp">
 					<div id="poster-img">
+					<Reveal effect="animated fadeInUp">
 						<img src={cppgtTickets} />
+					</Reveal>
 					</div>
 				</Reveal>
 				</div>

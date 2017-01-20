@@ -53,7 +53,9 @@ const PITG = function(){
 					</div>
 					<div className="col-md-8">
 						<div id="poster-img">
+						<Reveal effect="animated fadeInUp">
 							<img src={pitgPoster} />
+						</Reveal>
 						</div>
 					</div>
 				</div>
@@ -63,7 +65,9 @@ const PITG = function(){
 				<div className="row">
 					<div className="section-space-1">
 						<h4 className="text-center">Icons</h4>
-						<img id="wtniw-img" src={pitgIcons} />
+						<Reveal effect="animated fadeInUp">
+							<img id="wtniw-img" src={pitgIcons} />
+						</Reveal>
 					</div>
 				</div>
 			</div>
@@ -72,19 +76,29 @@ const PITG = function(){
 				<div className="container">
 					<h4 className="text-center">Digital</h4>
 						<div className="pitg-gif">
+						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/d1E2a57GoyOCmlbi" width="400" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						</Reveal>
 						</div>
 						<div className="pitg-gif">
+						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0Exn1Im46dlDt5Is" width="400" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						</Reveal>
 						</div>
 						<div className="pitg-gif">
+						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0ExfST5J6II9PT2M" width="400" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						</Reveal>
 						</div>
 						<div className="pitg-gif">
+						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0ExbcHrsBMQ3OBZ6" width="400" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						</Reveal>
 						</div>
 						<div className="pitg-gif">
+						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/26gsosMCT8qkwkNws" width="400" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						</Reveal>
 						</div>
 				</div>
 			</div>
