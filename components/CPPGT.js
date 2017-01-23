@@ -78,8 +78,8 @@ const CPPGT = function(){
 				</Reveal>
 				</div>
 				<div className="col-md-6 cosmic-img">
-					<div>
-						
+					<div className="cppgt-gif">
+						<iframe src="//giphy.com/embed/l3q2tbYXkGCkwEEYo" width="320" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 					</div>
 				</div>
 			</div>
