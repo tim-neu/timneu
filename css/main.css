@@ -331,25 +331,23 @@ Fade Start
 	padding: 0px;
 }
 
-#red {
-	background-color: red;
+#orange {
+	background-color: #e95f2b;
 	color: white;
 	margin: 0px;
 	padding: 0px;
 }
 
-#blue {
-	background-color: blue;
-	color: white;
-	margin: 0px;
-	padding: 0px;
+#orange img {
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 
-#green {
-	background-color: green;
-	color: white;
-	margin: 0px;
-	padding: 0px;
+#orange img:hover {
+	opacity: .1;
+
 }
 
 #banner img {

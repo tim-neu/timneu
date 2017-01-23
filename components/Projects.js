@@ -22,37 +22,37 @@ class Projects extends Component {
 		return (
 			<div className="container wide-container">
 				<div className="row wide-container">
-					<div className="col-sm-4" id="red">
+					<div className="col-sm-4" id="orange">
 						<Link to="teachin"><img src={teachinThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="blue">
+					<div className="col-sm-4" id="orange">
 						<Link to="cosmic-maddness"><img src={cosmicMaddnessThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="green">
+					<div className="col-sm-4" id="orange">
 						<Link to="full-throttle"><img src={fullThrottleThumb} id="thumb" /></Link>
 					</div>
 				</div>
 
 				<div className="row wide-container">
-					<div className="col-sm-4" id="red">
+					<div className="col-sm-4" id="orange">
 						<Link to="nos-sweeps"><img src={nosSweepsThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="blue">
+					<div className="col-sm-4" id="orange">
 						<Link to="wtniw"><img src={wtniwThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="green">
+					<div className="col-sm-4" id="orange">
 						<Link to="pitg"><img src={painInTheGasThumb} id="thumb" /></Link>
 					</div>
 				</div>
 
 				<div className="row wide-container">
-					<div className="col-sm-4" id="red">
+					<div className="col-sm-4" id="orange">
 						<Link to="chambord"><img src={chambordThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="blue">
+					<div className="col-sm-4" id="orange">
 						<Link to="wsl-pure"><img src={wslThumb} id="thumb" /></Link>
 					</div>
-					<div className="col-sm-4" id="green">
+					<div className="col-sm-4" id="orange">
 						<Link to="cppgt"><img src={cppgtThumb} id="thumb" /></Link>
 					</div>
 				</div>
