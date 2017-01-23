@@ -16,23 +16,7 @@ import teachin from '../assets/teachin.jpg';
 import tn_logo_lg from '../assets/tn_logo.png';
 
 var Home = React.createClass({
-  getInitialState: function() {
-    return { mounted: false };
-  },
-  componentDidMount: function() {
-    this.setState({ mounted: true });
-  },
   render: function() {
-    var name = this.state.mounted ?
-      <h1>TIM NEUMANN</h1>
-      :
-      null;
-
-    var title = this.state.mounted ?
-      <h4>Interactive Designer & Developer</h4>
-      :
-      null;
-
     return (
       <div>
   			<Headroom disableInlineStyles>
@@ -43,21 +27,24 @@ var Home = React.createClass({
   					<div className="hero">
   						<div className="headline">
   							<ReactCSSTransitionGroup
-  								transitionName="fade"
-          				transitionEnterTimeout={700}
-          				transitionLeaveTimeout={700}>
-  								{name}
-  								{title}
+  																transitionName="fade"
+          												transitionEnterTimeout={700}
+          												transitionLeaveTimeout={700}
+  																transitionAppear={true}
+      														transitionAppearTimeout={5000}>
+  								<h1>TIM NEUMANN</h1>
   							</ReactCSSTransitionGroup>
-  						</div>
-  						<div className="row" id="hero">
-  							<div className="col-xs-1 hero-line">
+  										<h4>Interactive Designer & Developer</h4>
+  									</div>
+  							<div className="row" id="hero">
+  								<div className="col-xs-1 hero-line">
+  								</div>
+  							</div>
+  							<div className="arrow bounce">
   							</div>
   						</div>
-  						<div className="arrow bounce"></div>
   					</div>
   				</div>
-  			</div>
 	
   			<div className="container section-space">
   				<div className="row">
@@ -83,18 +70,70 @@ var Home = React.createClass({
   					</Reveal>
   					<div className="row section-space-2">
   						<Reveal effect="animated fadeInLeft">
-  							<div className="col-md-12 contact">
+
+  							<div className="col-md-12 contact xl-contact" id="xl-view">
   								<h3>If you’d like to work together on a project,<br/>message me at <a href="mailto:neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
   								<div className="row">
-  									<div className="col-xs-1 line">
+  									<div className="col-xs-1 xl-line">
   									</div>
   								</div>
   								<div className="row">
   									<div className="col-md-8 offset-lg-2 contact">
   										<ul>
-  											<li><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
-  											<li><a href="https://github.com/tim-neu">GitHub</a></li>
-  											<li><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://github.com/tim-neu">GitHub</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+
+  							<div className="col-md-12 contact lg-contact desktop-only xl-only" id="lg-view">
+  								<h3>If you’d like to work together on a project,<br/>message me at <a href="mailto:neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
+  								<div className="row">
+  									<div className="col-xs-1 lg-line">
+  									</div>
+  								</div>
+  								<div className="row">
+  									<div className="col-md-8 offset-lg-2 contact">
+  										<ul>
+  											<li className="hvr-underline-reveal"><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://github.com/tim-neu">GitHub</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+
+  							<div className="col-md-12 contact md-contact desktop-only xl-only" id="md-view">
+  								<h3>If you’d like to work together on a project,<br/>message me at <a href="mailto:neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
+  								<div className="row">
+  									<div className="col-xs-1 md-line">
+  									</div>
+  								</div>
+  								<div className="row">
+  									<div className="col-md-8 offset-lg-2 md-contact">
+  										<ul>
+  											<li className="hvr-underline-reveal"><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://github.com/tim-neu">GitHub</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
+  										</ul>
+  									</div>
+  								</div>
+  							</div>
+
+  							<div className="col-md-12 contact sm-contact desktop-only xl-only" id="sm-view">
+  								<h3>If you’d like to work together on a project,<br/>message me at <a href="mailto:neu.timothee@gmail.com" className="email" id="text-underline">neu.timothee@gmail.com</a>.</h3>
+  								<div className="row">
+  									<div className="col-xs-1 sm-line">
+  									</div>
+  								</div>
+  								<div className="row">
+  									<div className="col-md-8 offset-lg-2 sm-contact">
+  										<ul>
+  											<li className="hvr-underline-reveal"><a href="https://www.linkedin.com/in/timaneumann">Linked.in</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://github.com/tim-neu">GitHub</a></li>
+  											<li className="hvr-underline-reveal"><a href="https://www.instagram.com/taneumann/">Instagram</a></li>
   										</ul>
   									</div>
   								</div>

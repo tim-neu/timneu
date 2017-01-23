@@ -61,33 +61,9 @@ const FullThrottle = function(){
 				<div className="container">
 					<Reveal effect="animated fadeInLeft">
 						<div className="row text-center">
-							<h4>Core Features</h4>
+							<p>The project started off with wireframing and mapping out where all content would eventually live on the page.</p>
 						</div>
 					</Reveal>
-
-					<div className="row text-center">
-						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Manage Grades</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInRight">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Organize Schedules</p>
-								</div>
-							</div>
-						</Reveal>
-						<Reveal effect="animated fadeInLeft">
-							<div className="col-md-4">
-								<div id="teachin-icons">
-									<p>Share Rescources</p>
-								</div>
-							</div>
-						</Reveal>
-					</div>
 				</div>
 			</div>
 

@@ -55,25 +55,25 @@ const WTNIW = function(){
 				</div>
 			</div>
 			<div className="black-bg">
-				<div className="container">
+				<div className="container ">
 					<h4 className="white-header text-center">Digital</h4>
-					<div className="row">
-						<div className="col-md-3 wtniw-gif">
+					<div className="gif-container">
+						<div className="gif-container col-md-3 wtniw-gif">
 						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/26gstFju5YgjOImu4" width="228" height="190"></iframe>
 						</Reveal>
 						</div>
-						<div className="col-md-3 wtniw-gif">
+						<div className="gif-container col-md-3 wtniw-gif">
 						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0Exd1HyiByzBZUNW" width="228" height="190"></iframe>
 						</Reveal>
 						</div>
-						<div className="col-md-3 wtniw-gif">
+						<div className="gif-container col-md-3 wtniw-gif">
 						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0Ex0wzwEPiM4IzaE" width="228" height="190"></iframe>
 						</Reveal>
 						</div>
-						<div className="col-md-3 wtniw-gif">
+						<div className="gif-container col-md-3 wtniw-gif">
 						<Reveal effect="animated fadeInUp">
 							<iframe src="//giphy.com/embed/l0ExvQEaJHlNOxt3q" width="228" height="190"></iframe>
 						</Reveal>
