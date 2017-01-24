@@ -4,7 +4,9 @@
   "description": "Port",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --history-api-fallback"
+    "dev": "webpack-dev-server --history-api-fallback",
+    "postinstall": "webpack -p",
+    "start": "node ./server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +24,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
+    "express": "^4.14.0",
     "react": "^15.4.1",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-transition-group": "^15.4.2",
