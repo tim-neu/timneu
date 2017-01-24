@@ -4,7 +4,8 @@
   "description": "Port",
   "main": "app.js",
   "engines": {
-    "node": "6.3.1"
+    "node": "6.3.1",
+    "npm": "4.1.1"
   },
   "scripts": {
     "dev": "webpack-dev-server --history-api-fallback",
