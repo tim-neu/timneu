@@ -11,7 +11,7 @@ import Footer from './Footer.js';
 
 //Assets
 import teachinBanner from '../assets/projects/teachin/teach-in-banner.jpg';
-import desktop from '../assets/projects/teachin/teachin-desk-01.jpg';
+import desktop from '../assets/projects/teachin/screencapture.png';
 import gradesIcon from '../assets/projects/teachin/teach-in-icon-set-03.jpg';
 import scheduleIcon from '../assets/projects/teachin/teach-in-icon-set-02.jpg';
 import rescourcesIcon from '../assets/projects/teachin/teach-in-icon-set-05.jpg';
@@ -66,7 +66,7 @@ class Teachin extends Component {
 			</div>
 
 
-				<div id="desktop-img">
+				<div id="ft-banner">
 					<img src={desktop} />
 				</div>
 
