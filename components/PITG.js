@@ -13,7 +13,6 @@ import Footer from './Footer.js';
 import pitgBanner from '../assets/projects/pain-in-the-gas/PainInTheGas_Header.jpg';
 import pitgPoster from '../assets/projects/pain-in-the-gas/PainInTheGas_Poster.png';
 import pitgIcons from '../assets/projects/pain-in-the-gas/PainInTheGas_Icons.jpg';
-import pitgPoster2 from '../assets/projects/pain-in-the-gas/pitg3.jpg';
 
 const PITG = function(){
 	return (
