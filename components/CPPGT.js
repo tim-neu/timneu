@@ -11,7 +11,7 @@ import Footer from './Footer.js';
 
 //Assets
 import cppgtBanner from '../assets/projects/ccpgt/BEAT_CPPS-Got-Talent_Header.jpg';
-import cppgtPoster from '../assets/projects/ccpgt/CPPGT_Poster_Mockup.png';
+import cppgtPoster from '../assets/projects/ccpgt/CPPGT_Poster_Mockup.jpg';
 import cppgtBadge from '../assets/projects/ccpgt/cppgtBadge.png';
 import cppgtTickets from '../assets/projects/ccpgt/cppgtTix.png';
 
