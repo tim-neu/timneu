@@ -117,16 +117,14 @@ const Chambord = function(){
 
 			<div className="gray-bg section-padding-1">
 				<div className="container">
-					<div className="row center">
-						<div className="col-lg-6">
-							<div className="poster-img">
+					<div className="container home-container">
+  						<div className="container content-container">
+  							<div className="chambord-vid">
 							<Reveal effect="animated fadeInUp">
 								<iframe src="https://player.vimeo.com/video/149361602" width="520" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							</Reveal>
 							</div>
-						</div>
-						<div className="col-lg-6">
-							<div className="poster-img">
+							<div className="chambord-vid">
 							<Reveal effect="animated fadeInUp">
 								<iframe src="https://player.vimeo.com/video/149363250" width="520" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							</Reveal>

@@ -91,6 +91,10 @@ Home
 	height: 90vh;
 }
 
+.video {
+  width: 10vw;
+}
+
 .headline {
 	position: relative;
 	top: 30vh;
@@ -378,6 +382,12 @@ Fade Start
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
+}
+
+.chambord-vid iframe {
+  margin: 30px;
+  padding: 0px;
+  width: 100%;
 }
 
 .wide-container {
